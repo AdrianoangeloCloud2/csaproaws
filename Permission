@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "S3:*",
+                "Cloudwatch:*",
+                "ec2:*",
+                "rds:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+--------------------
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "S3:*",
+                "Cloudwatch:*",
+                "ec2:*",
+                "rds:*",
+                "iam:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
