@@ -1,0 +1,21 @@
+x = 10
+y = 20
+z = 100
+w = (x+y)*z/100
+print (w)
+
+print("Este texto será impressora no console")
+print (x)
+print ("Texto e duas variaveis", x, ",", z)
+m = "Python"
+print(type(m))
+print(type(x))
+
+var = input("Informe o valor: ")
+var = int(var)
+print(type(var))
+var=float(var)
+print(type(var))
+
+#Este código é um comentário e parte do curso
+x=10 #este código é apenas comentário
