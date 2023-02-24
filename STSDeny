@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "STSDeny",
+      "Effect": "Deny",
+      "Action": [
+        "sts:AssumeRole",
+        "sts:AssumeRoleWithSAML"
+      ],
+      "Resource": [
+        "arn:aws:organizations::291926095288:root/o-h1cnlfc4fb/r-17gh"
+      ]
+    }
+  ]
+}
